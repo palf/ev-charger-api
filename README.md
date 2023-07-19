@@ -1,6 +1,11 @@
 ```sh
 export DATABASE_URL="postgres://test-user@localhost:5432/test-db"
 ```
+## How to test:
+```sh
+$ npm run test
+```
+
 
 ## How to test manually:
 ```sh
@@ -15,4 +20,3 @@ We're using the following libraries:
 
 
 Databases are created for testing and are short-lived; to create one for dev investigstion, run `pg-test start` and `pg-test stop` (this will require `docker`)
-
